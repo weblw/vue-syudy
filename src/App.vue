@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <Form />
+    <Tree />
   </div>
 </template>
 
 <script>
 import Form from './views/Form'
+import Tree from './views/Tree'
 export default {
   name: 'app',
   components: {
-    Form
+    Form,
+    Tree
   }
 }
 </script>
